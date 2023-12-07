@@ -23,7 +23,8 @@ public class IntGoogleCam_activity extends AppCompatActivity {
         botonIntent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(IntGoogleCam_activity.this, cambiodepantalla.class);
+                Intent i = new Intent(IntGoogleCam_activity.this,
+                        cambiodepantalla.class);
                 startActivity(i);
             }
         });

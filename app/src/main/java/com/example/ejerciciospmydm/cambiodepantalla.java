@@ -11,4 +11,5 @@ public class cambiodepantalla extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cambiodepantalla);
     }
+
 }

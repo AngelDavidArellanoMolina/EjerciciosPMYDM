@@ -35,3 +35,4 @@ public class Layouts_activity extends AppCompatActivity {
         startActivity(i);
     }
 }
+

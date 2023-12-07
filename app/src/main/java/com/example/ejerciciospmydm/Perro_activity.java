@@ -1,7 +1,6 @@
 package com.example.ejerciciospmydm;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,7 +8,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Perro_activity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +24,8 @@ public class Perro_activity extends AppCompatActivity {
                 if (!edad.isEmpty()){
                     int ageInt = Integer.parseInt(edad);
                     int result = ageInt * 7;
-                    String resultString = ("Si fueras perro, tu edad sería de " + result + " años");
+                    String resultString = ("Si fueras perro, tu edad sería de "
+                            + result + " años");
 
                     resultText.setText(resultString);
                 }

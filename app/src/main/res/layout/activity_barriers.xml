@@ -37,4 +37,5 @@
         app:layout_constraintStart_toEndOf="@+id/barrierVertical"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginHorizontal="15dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

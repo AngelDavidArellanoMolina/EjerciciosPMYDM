@@ -11,4 +11,5 @@ public class Layout1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout1);
     }
+
 }

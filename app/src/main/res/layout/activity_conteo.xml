@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Conteo_activity">
 
-
     <EditText
         android:id="@+id/contador"
         android:layout_width="wrap_content"
@@ -73,10 +72,6 @@
 
         />
 
-
-
-
-
     <Button
         android:id="@+id/menos"
         android:layout_width="100dp"
@@ -103,8 +98,4 @@
         app:layout_constraintStart_toEndOf="@id/menos"
         app:layout_constraintTop_toTopOf="parent"
         android:backgroundTint="@color/elements_color"/>
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

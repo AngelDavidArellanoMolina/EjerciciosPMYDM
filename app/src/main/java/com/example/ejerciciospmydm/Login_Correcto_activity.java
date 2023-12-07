@@ -16,6 +16,5 @@ public class Login_Correcto_activity extends AppCompatActivity {
         TextView texto = findViewById(R.id.texto_saludo);
         String user = getIntent().getStringExtra("USER");
         texto.setText("¡BIENVENIDO " + user.toUpperCase() + "!");
-
     }
 }

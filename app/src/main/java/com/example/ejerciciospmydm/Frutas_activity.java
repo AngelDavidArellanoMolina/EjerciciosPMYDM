@@ -30,7 +30,8 @@ public class Frutas_activity extends AppCompatActivity {
         final ImageButton pimiento = findViewById(R.id.pimiento);
         final ImageButton patata = findViewById(R.id.patata);
 
-        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1);
+        adapter = new ArrayAdapter<>(this,
+                android.R.layout.simple_list_item_1);
         listView.setAdapter(adapter);
 
         albaricoque.setVisibility(View.INVISIBLE);
@@ -90,6 +91,7 @@ public class Frutas_activity extends AppCompatActivity {
     }
 
     private void showToast(String producto) {
-        Toast.makeText(this, "Has añadido '" + producto + "' a la lista", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Has añadido '" + producto +
+                "' a la lista", Toast.LENGTH_SHORT).show();
     }
 }

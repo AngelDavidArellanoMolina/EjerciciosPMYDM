@@ -9,7 +9,6 @@
     android:background="@color/white"
     >
 
-
     <ImageView
         android:id="@+id/myImage"
         android:layout_width="match_parent"
@@ -69,6 +68,5 @@
         android:text="Calcular la edad"
         android:textColor="@color/white"
         android:textSize="30dp" />
-
 
 </LinearLayout>

@@ -150,7 +150,8 @@ public class Calculadora_activity extends AppCompatActivity {
                 Log.d("Botón pulsado: ", masmenos.getText().toString());
 
                 if (result.getText().toString().contains("-")) {
-                    result.setText(result.getText().toString().replace("-", ""));
+                    result.setText(result.getText().toString().replace("-",
+                            ""));
                 } else if (result.getText().toString().equals("") ||
                         result.getText().toString().equals("0")){
                     result.setText("");
@@ -234,7 +235,6 @@ public class Calculadora_activity extends AppCompatActivity {
                     Double resultado;
                     String texto;
                     DecimalFormat df = new DecimalFormat("#.####");
-
 
                     segundoNumero[0] = Double.parseDouble(result.getText().toString());
                     switch (operacion[0]) {

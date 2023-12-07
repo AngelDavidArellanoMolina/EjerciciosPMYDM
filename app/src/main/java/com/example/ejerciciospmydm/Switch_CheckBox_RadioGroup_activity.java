@@ -58,3 +58,5 @@ public class Switch_CheckBox_RadioGroup_activity extends AppCompatActivity {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }
+
+

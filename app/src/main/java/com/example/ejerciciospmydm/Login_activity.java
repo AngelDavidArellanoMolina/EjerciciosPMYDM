@@ -27,7 +27,6 @@ public class Login_activity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
         TextView texto = findViewById(R.id.error);
 
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,3 +54,5 @@ public class Login_activity extends AppCompatActivity {
         startActivity(i);
     }
 }
+
+

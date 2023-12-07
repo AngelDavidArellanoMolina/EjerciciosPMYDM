@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brown_bg_color"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    android:padding="20dp"
+    android:gravity="center"
     >
 
     <LinearLayout
@@ -28,11 +31,12 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
                 android:text="App Perro  ▶"
+                android:onClick="abrir_Perro"
                 />
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/perro" />
 
@@ -51,11 +55,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
-                android:text="App Login  ▶" />
+                android:text="App Login  ▶"
+                android:onClick="abrir_Login"
+                />
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/login" />
 
@@ -73,11 +79,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
-                android:text="App Calculadora  ▶" />
+                android:text="App Calculadora  ▶"
+                android:onClick="abrir_Calculadora"
+                />
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/calculadora" />
 
@@ -95,11 +103,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
-                android:text="App DanceMonster  ▶" />
+                android:text="App DanceMonster  ▶"
+                android:onClick="abrir_DanceMonsters"
+                />
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/monster" />
 
@@ -117,11 +127,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
-                android:text="App Layouts  ▶" />
+                android:text="App Layouts  ▶"
+                android:onClick="abrir_Layouts"
+                />
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/layout" />
 
@@ -138,11 +150,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/buttons_shape"
-            android:text="App Fruta  ▶" />
+            android:text="App Fruta  ▶"
+            android:onClick="abrir_Frutas"
+            />
 
         <ImageView
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginStart="25dp"
             android:src="@drawable/fruta" />
 
@@ -163,8 +177,8 @@
                 android:text="App Spinner  ▶" />
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/spinner" />
 
@@ -182,11 +196,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
-                android:text="App Intents, Google y Cámara  ▶" />
+                android:text="App Intents, Google y Cámara  ▶"
+                android:onClick="abrir_Intents_Google_Cam"/>
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/google" />
 
@@ -204,11 +219,12 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
-                android:text="App Switch, CheckBox, RadioButon  ▶" />
+                android:text="App Switch, CheckBox, RadioButon  ▶"
+                android:onClick="abrir_Switch_CheckBox_RadioGroup"/>
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/check" />
 
@@ -226,14 +242,17 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_shape"
-                android:text="App Conteo Negativos  ▶" />
+                android:text="App Conteo Negativos  ▶"
+                android:onClick="abrir_Conteo"
+                />
 
             <ImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/conteo" />
+                android:src="@drawable/conteo"
+                />
 
         </LinearLayout>
     </LinearLayout>
-</ScrollView>
+</LinearLayout>

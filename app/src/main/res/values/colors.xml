@@ -2,6 +2,35 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="brown_bg_color">#b5511a</color>
-    <color name="brown_elements">#8c2f09</color>
+    <color name="bg_color">#fdecda</color>
+    <color name="elements_color">#9e6730</color>
+    <color name="dark_grey">#4a4a4a</color>
+    <color name="grey">#808080</color>
+
+    <!-- PERRO -->
+    <color name="blue">#0000FF</color>
+    <color name="beige">#d6b969</color>
+
+    <!-- LOGIN -->
+    <color name="red">#db1818</color>
+    <color name="starbucks_green">#035b38</color>
+
+    <!-- DANCE MONSTERS -->
+    <color name="azul_monsters">#2b9fed</color>
+    <color name="orange">#f19606</color>
+    <color name="green_monsters">#149c02</color>
+    <color name="purple">#684ea3</color>
+
+    <!-- CALCULADORA -->
+    <color name="dark_grey_calc">#383434</color>
+    <color name="grey_calc">#a0a0a0</color>
+    <color name="orange_calc">#f19606</color>
+
+    <!-- LAYOUTS -->
+    <color name="green_layouts">#04fd02</color>
+    <color name="blue_layouts">#0001fc</color>
+    <color name="red_layouts">#fd0000</color>
+
+
+
 </resources>

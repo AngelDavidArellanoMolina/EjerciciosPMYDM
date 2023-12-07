@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.EjerciciosPMYDM" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/brown_elements</item>
+        <item name="colorPrimary">@color/elements_color</item>
     </style>
 
     <style name="Theme.EjerciciosPMYDM" parent="Base.Theme.EjerciciosPMYDM" />

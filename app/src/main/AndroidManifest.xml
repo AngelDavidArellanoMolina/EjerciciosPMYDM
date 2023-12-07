@@ -13,6 +13,57 @@
         android:theme="@style/Theme.EjerciciosPMYDM"
         tools:targetApi="31">
         <activity
+            android:name=".cambiodepantalla"
+            android:exported="false" />
+        <activity
+            android:name=".Intent_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Switch_CheckBox_RadioGroup_activity"
+            android:exported="false" />
+        <activity
+            android:name=".IntGoogleCam_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Conteo_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frutas_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Barriers"
+            android:exported="false" />
+        <activity
+            android:name=".Layout4"
+            android:exported="false" />
+        <activity
+            android:name=".Layout3"
+            android:exported="false" />
+        <activity
+            android:name=".Layout2"
+            android:exported="false" />
+        <activity
+            android:name=".Layout1"
+            android:exported="false" />
+        <activity
+            android:name=".Layouts_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Calculadora_activity"
+            android:exported="false" />
+        <activity
+            android:name=".DanceMonsters_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Correcto_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Perro_activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

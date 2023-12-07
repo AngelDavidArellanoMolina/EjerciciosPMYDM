@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Conteo_activity">
+
+
+    <EditText
+        android:id="@+id/contador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/mas"
+        android:layout_marginBottom="15dp"
+        android:hint="0"
+        android:textSize="100sp"
+        android:textAlignment="center"
+        android:inputType="numberSigned"
+
+        />
+
+    <ToggleButton
+        android:id="@+id/onoff"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="OFF"
+        android:checked="false"
+        app:layout_constraintTop_toBottomOf="@id/menos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/elements_color"
+        android:text="RESET"
+        app:layout_constraintTop_toBottomOf="@id/onoff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/num"
+
+        />
+
+    <EditText
+        android:id="@+id/num"
+        android:minWidth="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/onoff"
+        app:layout_constraintStart_toEndOf="@id/reset"
+        app:layout_constraintEnd_toStartOf="@id/check"
+        android:hint="0"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:inputType="numberSigned"
+        />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Conteo negativo"
+        app:layout_constraintTop_toBottomOf="@id/onoff"
+        app:layout_constraintStart_toEndOf="@id/num"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/menos"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/elements_color"
+        android:text="-"
+        android:textSize="25sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/mas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/mas"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textSize="25sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/menos"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/elements_color"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
